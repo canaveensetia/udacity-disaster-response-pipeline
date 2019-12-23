@@ -42,7 +42,7 @@ This project is divided in the following key sections:
 ### Installing
 To clone the git repository:
 ```
-git clone https://github.com/canaveensetia/disaster-response-pipeline.git
+git clone https://github.com/canaveensetia/udacity-disaster-response-pipeline.git
 ```
 <a name="execution"></a>
 ### Executing Program:
@@ -71,10 +71,13 @@ Using a standard desktop/laptop (4 CPUs, RAM 8Gb or above) it may take several h
 
 <a name="importantfiles"></a>
 ### Important Files
-app/templates/* templates/html files for web app
-data/process_data.pyExtract Train Load (ETL) pipeline used for data cleaning, feature extraction, and storing data in a SQLite database
-models/train_classifier.py A machine learning pipeline that loads data, trains a model, and saves the trained model as a .pkl file for later use
-run.py The file used to launch the Flask web app used to classify disaster messages
+**app/templates/***: templates/html files for web app
+
+**data/process_data.py**: Extract Train Load (ETL) pipeline used for data cleaning, feature extraction, and storing data in a SQLite database
+
+**models/train_classifier.py**: A machine learning pipeline that loads data, trains a model, and saves the trained model as a .pkl file for later use
+
+**run.py**: This file can be used to launch the Flask web app used to classify disaster messages
 
 <a name="authors"></a>
 ## Authors

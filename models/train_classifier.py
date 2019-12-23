@@ -71,7 +71,7 @@ def load_data_from_db(database_filepath):
     y = df.iloc[:,4:]
     
     #print(X)
-    print(y.columns)
+    #print(y.columns)
     category_names = y.columns # This will be used for visualization purpose
     return X, y, category_names
 

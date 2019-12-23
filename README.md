@@ -108,3 +108,13 @@ Using a standard desktop/laptop (4 CPUs, RAM 8Gb or above) it may take several h
 3. The main page shows some graphs about training dataset, provided by Figure Eight
 
 ![Main Page](screenshots/main_page.png)
+
+4. Sample run of process_data.py
+
+![Process Data](screenshots/process_data.png)
+
+5. Sample run of train_classifier.py
+
+![Train Classifier](screenshots/train_classifier.png)
+
+

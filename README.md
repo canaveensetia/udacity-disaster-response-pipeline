@@ -113,6 +113,9 @@ You can use **ML Pipeline Preparation Notebook** to re-train the model or tune i
 
 5. Sample run of train_classifier.py
 
-![Train Classifier](screenshots/train_classifier.png)
+![Train Classifier without Category Level Precision Recall](screenshots/train_classifier.png)
 
+6. Sample run of train_classifier.py with precision, recall etc. for each category
+
+![Train Classifier with Category Level Precision Recall](screenshots/train_classifier_category_precision_recall.png)
 

@@ -221,14 +221,11 @@ def evaluate_pipeline(pipeline, X_test, Y_test, category_names):
     print('F1 score (custom definition) {0:.2f}%'.format(multi_f1*100))
 
     # Print the whole classification report.
-    # Extremely long output
-    # Work In Progress: Save Output as Text file!
+    Y_pred = pd.DataFrame(Y_pred, columns = Y_test.columns)
     
-    #Y_pred = pd.DataFrame(Y_pred, columns = Y_test.columns)
-    
-    #for column in Y_test.columns:
-    #    print('Model Performance with Category: {}'.format(column))
-    #    print(classification_report(Y_test[column],Y_pred[column]))
+    for column in Y_test.columns:
+        print('Model Performance with Category: {}'.format(column))
+        print(classification_report(Y_test[column],Y_pred[column]))
 
 
 def save_model_as_pickle(pipeline, pickle_filepath):

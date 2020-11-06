@@ -18,7 +18,7 @@
 <a name="descripton"></a>
 ## Description
 
-This Project is part of Data Science Nanodegree Program by Udacity in collaboration with Figure Eight. The dataset contains pre-labelled tweet and messages from real-life disaster events. The project aim is to build a Natural Language Processing (NLP) model to categorize messages on a real time basis.
+This Project is part of Data Science Nanodegree Program by Udacity in collaboration with Figure Eight. The dataset contains pre-labelled tweet and messages from real-life disaster events. The project's aim is to build a Natural Language Processing (NLP) model to categorize messages on a real time basis.
 
 This project is divided in the following key sections:
 
